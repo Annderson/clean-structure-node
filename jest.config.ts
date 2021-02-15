@@ -20,7 +20,10 @@ export default {
 
   // The directory where Jest should output its coverage files
   coverageDirectory: 'coverage',
-
+  testEnvironment: 'node',
+  transform: {
+    '.+\\.ts$': 'ts-jest'
+  }
   // An array of regexp pattern strings used to skip coverage collection
   // coveragePathIgnorePatterns: [
   //   "/node_modules/"
@@ -132,9 +135,6 @@ export default {
   // A list of paths to snapshot serializer modules Jest should use for snapshot testing
   // snapshotSerializers: [],
 
-  // The test environment that will be used for testing
-  testEnvironment: 'node',
-
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
 
@@ -168,9 +168,6 @@ export default {
   // timers: "real",
 
   // A map from regular expressions to paths to transformers
-  transform: {
-    '.+\\.ts$': 'ts-jest'
-  }
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
