@@ -11,7 +11,7 @@ export class SignUpController implements Controller {
       }
     }
     return {
-      statusCode: 200,
+      statusCode: 400,
       body: 'test'
     };
   }
