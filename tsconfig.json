@@ -3,7 +3,7 @@
         "baseUrl": "src",
         "outDir": "./dist",
         "module": "commonjs",
-        "target": "es2015",
+        "target": "es2019",
         "esModuleInterop": true,
         "strictNullChecks": true,
         "allowJs": true
