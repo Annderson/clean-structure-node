@@ -5,7 +5,7 @@ import {
   InvalidParamError,
   MissingParamError,
   ServerError
-} from '../errors';
+} from '../../errors';
 import { SignUpController } from './signup';
 
 interface SubTypes {

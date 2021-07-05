@@ -1,8 +1,8 @@
 import { HttpRequest, HttpResponse, Controller } from 'types/http';
 import { AddAccount } from 'domain/models/account';
 
-import { EmailValidator, badRequest, serverError, success } from '../helpers';
-import { InvalidParamError, MissingParamError } from '../errors';
+import { EmailValidator, badRequest, serverError, success } from '../../helpers';
+import { InvalidParamError, MissingParamError } from '../../errors';
 
 const requiredFields = ['name', 'email', 'password', 'passwordConfirmation'];
 export class SignUpController implements Controller {
