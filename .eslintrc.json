@@ -8,6 +8,6 @@
         "@typescript-eslint/member-delimiter-style": "off",
         "@typescript-eslint/semi": "off",
         "no-unused-expressions": "off",
-        "@typescript-eslint/no-unused-expressions": "off",
+        "@typescript-eslint/no-unused-expressions": "off"
     }
 }
